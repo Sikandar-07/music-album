@@ -1,0 +1,40 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+span {
+  margin-right: 0.75rem;
+  transition: opacity 0.3s ease, transform 0.3s ease;
+}
+
+span:hover {
+  opacity: 0.8;
+  transform: scale(1.05);
+}
+
+.addButton {
+  background-color: black;
+  color: white;
+  width: 120px;
+  height: 40px;
+  padding: 5px;
+  border-radius: 5px;
+  text-align: center;
+  font-size: 14px;
+  line-height: 1.2;
+  cursor: pointer;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.swal-custom-title {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.swal-custom-icon {
+  width: 65px;
+  height: 67px;
+}
